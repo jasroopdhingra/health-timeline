@@ -3,9 +3,10 @@ import type { HealthEvent } from '@/types';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
+import { useEventDetail } from '@/hooks/useEventDetail';
 import { EventDetail } from './EventDetail';
-import { formatDate, formatRelativeDate, getEventTypeBadgeStyle } from '@/lib/format';
-import { ChevronDown } from 'lucide-react';
+import { formatDate, formatRelativeDate, formatCurrency, getEventTypeBadgeStyle } from '@/lib/format';
+import { ChevronDown, MessageSquare, Paperclip, Receipt, StickyNote } from 'lucide-react';
 
 interface EventCardProps {
   event: HealthEvent;
@@ -13,6 +14,9 @@ interface EventCardProps {
 
 export function EventCard({ event }: EventCardProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const { messages, supportNotes, attachments, bill } = useEventDetail(event.event_id);
+
+  const hasMetadata = messages.length > 0 || supportNotes.length > 0 || attachments.length > 0 || bill;
 
   return (
     <Collapsible open={isOpen} onOpenChange={setIsOpen}>
@@ -35,6 +39,34 @@ export function EventCard({ event }: EventCardProps) {
                   <span aria-hidden="true">&middot;</span>
                   <span>{formatRelativeDate(event.create_time)}</span>
                 </div>
+                {!isOpen && hasMetadata && (
+                  <div className="flex gap-3 mt-1 text-xs text-muted-foreground">
+                    {messages.length > 0 && (
+                      <span className="flex items-center gap-1">
+                        <MessageSquare className="h-3 w-3" />
+                        {messages.length}
+                      </span>
+                    )}
+                    {attachments.length > 0 && (
+                      <span className="flex items-center gap-1">
+                        <Paperclip className="h-3 w-3" />
+                        {attachments.length}
+                      </span>
+                    )}
+                    {supportNotes.length > 0 && (
+                      <span className="flex items-center gap-1">
+                        <StickyNote className="h-3 w-3" />
+                        {supportNotes.length}
+                      </span>
+                    )}
+                    {bill && (
+                      <span className="flex items-center gap-1">
+                        <Receipt className="h-3 w-3" />
+                        {formatCurrency(bill.amount_allowed)}
+                      </span>
+                    )}
+                  </div>
+                )}
               </div>
               <ChevronDown
                 className={`h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200 ${
