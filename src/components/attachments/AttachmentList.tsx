@@ -3,7 +3,7 @@ import type { Attachment } from '@/types';
 import { formatDateTime } from '@/lib/format';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { FileText, FileSpreadsheet, FileImage, File, Pencil, Check, X } from 'lucide-react';
+import { FileText, FileSpreadsheet, FileImage, File, Pencil, Check, X, Download } from 'lucide-react';
 
 function getFileIcon(fileName: string) {
   const ext = fileName.split('.').pop()?.toLowerCase();
@@ -31,6 +31,7 @@ function AttachmentItem({
 }) {
   const [editing, setEditing] = useState(false);
   const [editName, setEditName] = useState(attachment.file_name);
+  const [showToast, setShowToast] = useState(false);
 
   function handleSave() {
     const trimmed = editName.trim();
@@ -53,8 +54,18 @@ function AttachmentItem({
     if (e.key === 'Escape') handleCancel();
   }
 
+  function handleDownload() {
+    setShowToast(true);
+    setTimeout(() => setShowToast(false), 2000);
+  }
+
   return (
-    <div className="group flex items-center gap-3 rounded-lg border bg-muted/30 px-4 py-2.5">
+    <div className="group flex items-center gap-3 rounded-lg border bg-muted/30 px-4 py-2.5 relative">
+      {showToast && (
+        <div className="absolute -top-8 left-1/2 -translate-x-1/2 bg-foreground text-background text-xs px-3 py-1.5 rounded-md shadow-lg whitespace-nowrap z-20">
+          Download not available in prototype
+        </div>
+      )}
       {getFileIcon(editing ? editName : attachment.file_name)}
       {editing ? (
         <div className="flex gap-2 flex-1 min-w-0">
@@ -80,14 +91,26 @@ function AttachmentItem({
               {formatDateTime(attachment.create_time)}
             </p>
           </div>
-          <Button
-            size="icon"
-            variant="ghost"
-            className="h-7 w-7 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity"
-            onClick={() => setEditing(true)}
-          >
-            <Pencil className="h-3 w-3" />
-          </Button>
+          <div className="flex gap-1 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity">
+            <Button
+              size="icon"
+              variant="ghost"
+              className="h-7 w-7"
+              onClick={handleDownload}
+              title="Download file"
+            >
+              <Download className="h-3 w-3" />
+            </Button>
+            <Button
+              size="icon"
+              variant="ghost"
+              className="h-7 w-7"
+              onClick={() => setEditing(true)}
+              title="Rename file"
+            >
+              <Pencil className="h-3 w-3" />
+            </Button>
+          </div>
         </>
       )}
     </div>
