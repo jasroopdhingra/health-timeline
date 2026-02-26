@@ -1,6 +1,7 @@
 # Health Timeline
 
 A prototype health insurance event timeline built for Sheer Health's frontend exercise.
+
 LIVE: https://health-timeline-ashy.vercel.app/ 
 
 ## Running the App
