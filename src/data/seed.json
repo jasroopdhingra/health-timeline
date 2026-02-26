@@ -46,7 +46,7 @@
       "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
       "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
       "create_time": "2025-04-03T18:37:28.859297-04:00",
-      "event_type": "Diagnostic Testing",
+      "event_type": "Consultation",
       "details": "Meeting with specialist to discuss surgical procedure."
     },
     {
@@ -60,7 +60,7 @@
       "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
       "event_id": "ce544997-3602-4834-97fe-1aec70426338",
       "create_time": "2025-03-30T07:40:27.859303-04:00",
-      "event_type": "Diagnostic Testing",
+      "event_type": "Therapy Session",
       "details": "Meeting with specialist to discuss surgical procedure."
     },
     {
@@ -74,7 +74,7 @@
       "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
       "event_id": "3eefd17a-4d45-47a0-b7b3-5989c8300a34",
       "create_time": "2025-04-16T16:02:28.859308-04:00",
-      "event_type": "Diagnostic Testing",
+      "event_type": "Follow-up Appointment",
       "details": "Follow-up visit to assess effectiveness of physical therapy."
     },
     {
@@ -89,7 +89,7 @@
       "event_id": "1307dbc6-b73f-4178-91d7-643a697427a1",
       "create_time": "2025-03-19T16:06:03.859313-04:00",
       "event_type": "Diagnostic Testing",
-      "details": "Reviewed blood test results and medication adjustments with Dr. Brown."
+      "details": "Blood work and imaging results review with Dr. Brown."
     }
   ],
   "messages": [

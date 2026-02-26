@@ -32,12 +32,12 @@ export function EventList({ events }: EventListProps) {
             </h2>
             <div className="flex-1 h-px bg-border" />
           </div>
-          <div className="relative pl-6">
-            <div className="absolute left-[7px] top-3 bottom-3 w-px bg-border" />
+          <div className="relative pl-8">
+            <div className="absolute left-[11px] top-0 bottom-0 w-px bg-border" />
             <div className="space-y-3">
               {groupEvents.map((event) => (
                 <div key={event.event_id} className="relative">
-                  <div className="absolute left-[-19px] top-5 h-2.5 w-2.5 rounded-full border-2 border-primary bg-background" />
+                  <div className="absolute left-[-26.5px] top-5 h-3 w-3 rounded-full border-2 border-primary bg-background z-10" />
                   <EventCard event={event} />
                 </div>
               ))}
