@@ -4,13 +4,18 @@ import { getMonthYear } from '@/lib/format';
 
 interface EventListProps {
   events: HealthEvent[];
+  isFiltered?: boolean;
 }
 
-export function EventList({ events }: EventListProps) {
+export function EventList({ events, isFiltered = false }: EventListProps) {
   if (events.length === 0) {
     return (
       <div className="text-center py-12">
-        <p className="text-muted-foreground">No events yet. Create one to get started.</p>
+        <p className="text-muted-foreground">
+          {isFiltered
+            ? 'No events match your search or filter.'
+            : 'No events yet. Create one to get started.'}
+        </p>
       </div>
     );
   }
