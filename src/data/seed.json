@@ -1,0 +1,654 @@
+{
+  "accounts": [
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "first_name": "John",
+      "last_name": "Doe"
+    }
+  ],
+  "events": [
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "create_time": "2025-01-26T17:49:50.859162-05:00",
+      "event_type": "Follow-up Appointment",
+      "details": "ER visit for chest pains and shortness of breath."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "0eee3f18-e325-4631-8300-f0bfe396c37e",
+      "create_time": "2025-03-14T14:06:11.859284-04:00",
+      "event_type": "Follow-up Appointment",
+      "details": "Weekly appointment for cognitive behavioral therapy."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "8126b6c9-8b91-472c-bb11-d0fa0d5627df",
+      "create_time": "2025-03-22T11:49:06.859288-04:00",
+      "event_type": "General Checkup",
+      "details": "Reviewed blood test results and medication adjustments with Dr. Brown."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "create_time": "2025-03-01T02:07:38.859292-05:00",
+      "event_type": "General Checkup",
+      "details": "Received X-ray for suspected bone fracture."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "92213581-e070-44f9-8d72-24ed0a85f9f9",
+      "create_time": "2025-01-29T23:36:44.859295-05:00",
+      "event_type": "Follow-up Appointment",
+      "details": "Received flu shot and scheduled mammogram."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
+      "create_time": "2025-04-03T18:37:28.859297-04:00",
+      "event_type": "Diagnostic Testing",
+      "details": "Meeting with specialist to discuss surgical procedure."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "9501c85f-2509-47cc-a596-e251b5d6a3d6",
+      "create_time": "2025-03-03T13:01:05.8593-05:00",
+      "event_type": "Consultation",
+      "details": "Urgent care visit for severe allergic reaction."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ce544997-3602-4834-97fe-1aec70426338",
+      "create_time": "2025-03-30T07:40:27.859303-04:00",
+      "event_type": "Diagnostic Testing",
+      "details": "Meeting with specialist to discuss surgical procedure."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ef62fda6-6b53-43f7-b155-b802b58f8196",
+      "create_time": "2025-02-19T08:01:17.859305-05:00",
+      "event_type": "Therapy Session",
+      "details": "Wellness visit for health maintenance and disease prevention."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "3eefd17a-4d45-47a0-b7b3-5989c8300a34",
+      "create_time": "2025-04-16T16:02:28.859308-04:00",
+      "event_type": "Diagnostic Testing",
+      "details": "Follow-up visit to assess effectiveness of physical therapy."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ba75ce74-4f92-4a47-8022-e6313e09caa5",
+      "create_time": "2025-02-17T01:21:54.85931-05:00",
+      "event_type": "Follow-up Appointment",
+      "details": "Treatment of a broken arm in the emergency room."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "1307dbc6-b73f-4178-91d7-643a697427a1",
+      "create_time": "2025-03-19T16:06:03.859313-04:00",
+      "event_type": "Diagnostic Testing",
+      "details": "Reviewed blood test results and medication adjustments with Dr. Brown."
+    }
+  ],
+  "messages": [
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "message_id": "5f8a4b5f-06af-48f6-8432-bf6383eb0a9f",
+      "create_time": "2025-01-27T06:49:50.859162-05:00",
+      "text": "Is this safe, and are there any side effects or risks?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "message_id": "aec3732d-7b62-4fda-9d48-a2a577861dfa",
+      "create_time": "2025-01-27T20:49:50.859162-05:00",
+      "text": "Will there be any follow-up?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "message_id": "b8d68a8d-9565-4805-9956-0697f1c1dc83",
+      "create_time": "2025-01-27T13:49:50.859162-05:00",
+      "text": "How often should this be repeated?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "message_id": "883ed2d9-38a6-4167-856c-b0cc5824fd8c",
+      "create_time": "2025-01-27T22:49:50.859162-05:00",
+      "text": "When will I receive the results?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "0eee3f18-e325-4631-8300-f0bfe396c37e",
+      "message_id": "33ce3040-7235-4bc7-8b5f-a7390282e70b",
+      "create_time": "2025-03-14T22:06:11.859284-04:00",
+      "text": "What is the recovery time?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "0eee3f18-e325-4631-8300-f0bfe396c37e",
+      "message_id": "52e91e3a-fca2-45b0-b807-c613638603fb",
+      "create_time": "2025-03-14T20:06:11.859284-04:00",
+      "text": "What is the recovery time?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "0eee3f18-e325-4631-8300-f0bfe396c37e",
+      "message_id": "140e4394-93bf-449d-b7e7-119e448ba0b3",
+      "create_time": "2025-03-15T01:06:11.859284-04:00",
+      "text": "Is this safe, and are there any side effects or risks?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "8126b6c9-8b91-472c-bb11-d0fa0d5627df",
+      "message_id": "569b128b-15e6-40e0-8e08-f6c4b2117065",
+      "create_time": "2025-03-24T00:49:06.859288-04:00",
+      "text": "How often should this be repeated?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "8126b6c9-8b91-472c-bb11-d0fa0d5627df",
+      "message_id": "8a8132d0-3fdf-4104-b820-4b3f26eced93",
+      "create_time": "2025-03-24T08:49:06.859288-04:00",
+      "text": "What are the possible treatments or next steps?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "8126b6c9-8b91-472c-bb11-d0fa0d5627df",
+      "message_id": "b2b5b931-53a5-42ec-bf3d-745dae716fc2",
+      "create_time": "2025-03-23T19:49:06.859288-04:00",
+      "text": "Will there be any follow-up?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "8126b6c9-8b91-472c-bb11-d0fa0d5627df",
+      "message_id": "6a570222-9e64-4c08-a53b-e2136f754f56",
+      "create_time": "2025-03-22T14:49:06.859288-04:00",
+      "text": "When will I receive the results?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "message_id": "0b28b0c7-04f9-4d16-a8e2-f83ca14a3441",
+      "create_time": "2025-03-02T00:07:38.859292-05:00",
+      "text": "How long will this take?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "message_id": "99ec3909-1809-4c01-866b-298070a53999",
+      "create_time": "2025-03-01T19:07:38.859292-05:00",
+      "text": "What is the recovery time?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "message_id": "76608453-0c85-4229-97f6-3d38fdb301f9",
+      "create_time": "2025-03-02T05:07:38.859292-05:00",
+      "text": "Will my insurance cover this?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "message_id": "17d87fb4-c93d-4cd9-a3e5-1591af2f8341",
+      "create_time": "2025-03-02T14:07:38.859292-05:00",
+      "text": "Will there be any follow-up?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "92213581-e070-44f9-8d72-24ed0a85f9f9",
+      "message_id": "20eccf3f-a119-48a3-b311-875b3de9761e",
+      "create_time": "2025-01-31T21:36:44.859295-05:00",
+      "text": "How should I prepare for this?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "92213581-e070-44f9-8d72-24ed0a85f9f9",
+      "message_id": "70d7c5aa-f62d-48b0-855a-940da89fb97f",
+      "create_time": "2025-01-31T01:36:44.859295-05:00",
+      "text": "Is this safe, and are there any side effects or risks?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
+      "message_id": "aee14a9e-16b4-427f-a97e-b082c69a81f5",
+      "create_time": "2025-04-04T09:37:28.859297-04:00",
+      "text": "How long will this take?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
+      "message_id": "2a9a95b7-171e-4232-9382-59eae30dd6c3",
+      "create_time": "2025-04-04T02:37:28.859297-04:00",
+      "text": "Is this safe, and are there any side effects or risks?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
+      "message_id": "85f9f825-15d2-4db9-8ddf-eec4256769cb",
+      "create_time": "2025-04-03T22:37:28.859297-04:00",
+      "text": "How long will this take?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "9501c85f-2509-47cc-a596-e251b5d6a3d6",
+      "message_id": "a47949da-1b7f-4a5b-ab9c-51d58303dcb8",
+      "create_time": "2025-03-03T23:01:05.8593-05:00",
+      "text": "When will I receive the results?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "9501c85f-2509-47cc-a596-e251b5d6a3d6",
+      "message_id": "8bd5375d-34d0-4a16-9d1b-e55b348b18f6",
+      "create_time": "2025-03-04T15:01:05.8593-05:00",
+      "text": "Can I get a copy of my records/results?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "9501c85f-2509-47cc-a596-e251b5d6a3d6",
+      "message_id": "94a0574f-cdf6-4b5d-b937-ae0bcc696ab5",
+      "create_time": "2025-03-04T22:01:05.8593-05:00",
+      "text": "Will my insurance cover this?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "9501c85f-2509-47cc-a596-e251b5d6a3d6",
+      "message_id": "14548e42-0ba6-4007-9ae3-24439ebe79f4",
+      "create_time": "2025-03-04T18:01:05.8593-05:00",
+      "text": "How effective is this treatment or procedure?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ce544997-3602-4834-97fe-1aec70426338",
+      "message_id": "7a6821d9-513c-42a0-ac9b-2168dff801ce",
+      "create_time": "2025-03-31T22:40:27.859303-04:00",
+      "text": "Will there be any follow-up?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ce544997-3602-4834-97fe-1aec70426338",
+      "message_id": "cdc169d5-a8ed-49c4-977f-6608dfc83491",
+      "create_time": "2025-03-31T12:40:27.859303-04:00",
+      "text": "How long will this take?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ef62fda6-6b53-43f7-b155-b802b58f8196",
+      "message_id": "b42941b6-b590-4e16-9308-403a921ac64b",
+      "create_time": "2025-02-21T00:01:17.859305-05:00",
+      "text": "What are the possible treatments or next steps?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ef62fda6-6b53-43f7-b155-b802b58f8196",
+      "message_id": "75fe5b7d-e9db-4e2f-bf03-1f9fc88a3c86",
+      "create_time": "2025-02-20T19:01:17.859305-05:00",
+      "text": "What are the different options available?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "3eefd17a-4d45-47a0-b7b3-5989c8300a34",
+      "message_id": "c9f158d5-2f40-4663-af2a-607e519ab2b4",
+      "create_time": "2025-04-17T14:02:28.859308-04:00",
+      "text": "How effective is this treatment or procedure?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "3eefd17a-4d45-47a0-b7b3-5989c8300a34",
+      "message_id": "4f3c1bb9-8d97-4e36-856c-06437b79329c",
+      "create_time": "2025-04-18T14:02:28.859308-04:00",
+      "text": "What is the recovery time?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "3eefd17a-4d45-47a0-b7b3-5989c8300a34",
+      "message_id": "42556014-4b11-49a2-900c-38d10d6e6f83",
+      "create_time": "2025-04-18T16:02:28.859308-04:00",
+      "text": "What are the possible treatments or next steps?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ba75ce74-4f92-4a47-8022-e6313e09caa5",
+      "message_id": "d49439d4-1320-4b3c-9a70-8c0454667940",
+      "create_time": "2025-02-17T22:21:54.85931-05:00",
+      "text": "Will there be any follow-up?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ba75ce74-4f92-4a47-8022-e6313e09caa5",
+      "message_id": "afdbae70-9ada-437b-851d-e4cbc21e7d89",
+      "create_time": "2025-02-17T10:21:54.85931-05:00",
+      "text": "How should I prepare for this?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ba75ce74-4f92-4a47-8022-e6313e09caa5",
+      "message_id": "d02d7472-d4f3-4dd2-aca0-217251d97633",
+      "create_time": "2025-02-18T12:21:54.85931-05:00",
+      "text": "Will there be any follow-up?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "1307dbc6-b73f-4178-91d7-643a697427a1",
+      "message_id": "ec7b75b0-1c47-4568-8a45-ac9df97c5372",
+      "create_time": "2025-03-20T16:06:03.859313-04:00",
+      "text": "Will there be any follow-up?"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "1307dbc6-b73f-4178-91d7-643a697427a1",
+      "message_id": "8118a67b-45f7-4417-a1f9-9f3a13694e91",
+      "create_time": "2025-03-21T10:06:03.859313-04:00",
+      "text": "What should I expect during this event?"
+    }
+  ],
+  "support_notes": [
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "note_id": "4c8cf6c7-78d9-4d5c-bebd-13f8d5770c60",
+      "create_time": "2025-01-27T14:49:50.859162-05:00",
+      "text": "Prefers email communication."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "note_id": "d797aea1-9dc3-4336-aaa5-14cd7218ea2f",
+      "create_time": "2025-03-01T10:07:38.859292-05:00",
+      "text": "Uses a wheelchair for mobility."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
+      "note_id": "088ef99a-423d-43ee-9a6d-add57c804251",
+      "create_time": "2025-04-04T10:37:28.859297-04:00",
+      "text": "Requires a translator for Spanish."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ba75ce74-4f92-4a47-8022-e6313e09caa5",
+      "note_id": "f70737d3-bd99-4ede-9fb9-8a85d0f10eb2",
+      "create_time": "2025-02-17T07:21:54.85931-05:00",
+      "text": "Currently unemployed and concerned about medical bills."
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "1307dbc6-b73f-4178-91d7-643a697427a1",
+      "note_id": "5dc4a5e6-9449-48d8-aee1-124aee01ad71",
+      "create_time": "2025-03-20T12:06:03.859313-04:00",
+      "text": "Recently hospitalized for pneumonia."
+    }
+  ],
+  "attachments": [
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "attachment_id": "845fce11-616e-41bd-8167-bdc958bed8b3",
+      "create_time": "2025-01-27T03:49:50.859162-05:00",
+      "file_name": "medication_history.docx"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "attachment_id": "a3042695-f3e4-4ffc-b933-ca9a81c84ec1",
+      "create_time": "2025-01-27T08:49:50.859162-05:00",
+      "file_name": "translator_request_form.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "0eee3f18-e325-4631-8300-f0bfe396c37e",
+      "attachment_id": "94e56fce-7f19-4022-a16d-613583d7168b",
+      "create_time": "2025-03-14T16:06:11.859284-04:00",
+      "file_name": "financial_assistance_application.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "0eee3f18-e325-4631-8300-f0bfe396c37e",
+      "attachment_id": "5b10ff1d-0c5d-49e5-be10-e5c853cf9093",
+      "create_time": "2025-03-14T16:06:11.859284-04:00",
+      "file_name": "pain_management_plan.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "8126b6c9-8b91-472c-bb11-d0fa0d5627df",
+      "attachment_id": "4d31a42e-95a1-4f84-bff7-dcbb7f4b7088",
+      "create_time": "2025-03-23T02:49:06.859288-04:00",
+      "file_name": "pain_management_plan.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "8126b6c9-8b91-472c-bb11-d0fa0d5627df",
+      "attachment_id": "04660348-d8c8-40b5-895b-bdb6d332a030",
+      "create_time": "2025-03-23T03:49:06.859288-04:00",
+      "file_name": "chronic_condition_management_plan.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "attachment_id": "80d26bd7-0459-45c8-9f4e-9817bf2a1434",
+      "create_time": "2025-03-02T01:07:38.859292-05:00",
+      "file_name": "contact_info_sheet.txt"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "attachment_id": "39ac8e6f-7e8a-4b61-bf76-523420dbe37a",
+      "create_time": "2025-03-01T09:07:38.859292-05:00",
+      "file_name": "specialist_followup_appointment.ics"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "92213581-e070-44f9-8d72-24ed0a85f9f9",
+      "attachment_id": "8232b7df-ef50-42a0-b673-d00e70d3fe89",
+      "create_time": "2025-01-30T20:36:44.859295-05:00",
+      "file_name": "allergy_report.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "92213581-e070-44f9-8d72-24ed0a85f9f9",
+      "attachment_id": "4460f921-3e6a-48f9-9e58-2815d8e87cf6",
+      "create_time": "2025-01-30T16:36:44.859295-05:00",
+      "file_name": "anxiety_assessment.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
+      "attachment_id": "6edcc1b6-4d17-4fcb-9992-9c35534e2385",
+      "create_time": "2025-04-04T13:37:28.859297-04:00",
+      "file_name": "allergy_report.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
+      "attachment_id": "c8ffdd25-800d-42ee-bce5-276e0ec955df",
+      "create_time": "2025-04-04T12:37:28.859297-04:00",
+      "file_name": "medication_history.docx"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "9501c85f-2509-47cc-a596-e251b5d6a3d6",
+      "attachment_id": "e34e1601-3e1c-4180-b4b8-2c9143530714",
+      "create_time": "2025-03-03T15:01:05.8593-05:00",
+      "file_name": "anxiety_assessment.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "9501c85f-2509-47cc-a596-e251b5d6a3d6",
+      "attachment_id": "558eb9cd-edb8-4de6-86da-c08a6b3d44be",
+      "create_time": "2025-03-03T20:01:05.8593-05:00",
+      "file_name": "insurance_change_notice.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ce544997-3602-4834-97fe-1aec70426338",
+      "attachment_id": "84179850-f3f7-49f3-b40d-91c47da9db8e",
+      "create_time": "2025-03-30T13:40:27.859303-04:00",
+      "file_name": "transportation_assistance_request.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ce544997-3602-4834-97fe-1aec70426338",
+      "attachment_id": "d2715da1-b418-4b4b-8ad2-05f8ce49cdb0",
+      "create_time": "2025-03-31T01:40:27.859303-04:00",
+      "file_name": "contact_info_sheet.txt"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ef62fda6-6b53-43f7-b155-b802b58f8196",
+      "attachment_id": "d3a7f936-aa85-4083-8587-5315b9434704",
+      "create_time": "2025-02-19T13:01:17.859305-05:00",
+      "file_name": "hospitalization_summary.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ef62fda6-6b53-43f7-b155-b802b58f8196",
+      "attachment_id": "f2d19611-65b9-45a4-bddc-6fe41f87dfd2",
+      "create_time": "2025-02-19T12:01:17.859305-05:00",
+      "file_name": "allergy_report.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "3eefd17a-4d45-47a0-b7b3-5989c8300a34",
+      "attachment_id": "4061b3cb-28f9-4cbc-b34d-ad42855d6372",
+      "create_time": "2025-04-17T07:02:28.859308-04:00",
+      "file_name": "medication_history.docx"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "3eefd17a-4d45-47a0-b7b3-5989c8300a34",
+      "attachment_id": "abc268aa-9a74-427a-b794-90c28398699a",
+      "create_time": "2025-04-17T02:02:28.859308-04:00",
+      "file_name": "contact_info_sheet.txt"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ba75ce74-4f92-4a47-8022-e6313e09caa5",
+      "attachment_id": "14dac4e1-4353-474b-94d4-a28d64724825",
+      "create_time": "2025-02-17T18:21:54.85931-05:00",
+      "file_name": "contact_info_sheet.txt"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ba75ce74-4f92-4a47-8022-e6313e09caa5",
+      "attachment_id": "75e5a287-2da1-4be4-bede-6ceefd75f757",
+      "create_time": "2025-02-17T03:21:54.85931-05:00",
+      "file_name": "allergy_report.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "1307dbc6-b73f-4178-91d7-643a697427a1",
+      "attachment_id": "6ed043b8-169b-4404-bf44-36ae556209c8",
+      "create_time": "2025-03-19T19:06:03.859313-04:00",
+      "file_name": "pain_management_plan.pdf"
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "1307dbc6-b73f-4178-91d7-643a697427a1",
+      "attachment_id": "69f1933e-4793-4590-a240-890bc1cc34d1",
+      "create_time": "2025-03-20T12:06:03.859313-04:00",
+      "file_name": "chronic_condition_management_plan.pdf"
+    }
+  ],
+  "bill": [
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "fc196b93-01bb-4300-9c52-df64968a32f6",
+      "bill_id": "38e45984-0698-4572-9f1e-0ef3441f80ca",
+      "create_time": "2025-01-28T05:49:50.859162-05:00",
+      "amount_billed": 378.89459222636515,
+      "amount_allowed": 303.11567378109214
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "0eee3f18-e325-4631-8300-f0bfe396c37e",
+      "bill_id": "1f46ebae-1a6e-434d-8e08-647ea5e57b54",
+      "create_time": "2025-03-15T15:06:11.859284-04:00",
+      "amount_billed": 498.2257007265361,
+      "amount_allowed": 398.5805605812289
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "8126b6c9-8b91-472c-bb11-d0fa0d5627df",
+      "bill_id": "f97662cc-6fad-4db2-845a-0f54a6783ac4",
+      "create_time": "2025-03-23T22:49:06.859288-04:00",
+      "amount_billed": 361.9689956385218,
+      "amount_allowed": 289.5751965108174
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "5f185216-1d38-4ae8-b7a9-83ac719e4d88",
+      "bill_id": "39e5a5c0-bdc2-4814-847a-f6fdba6ee2e8",
+      "create_time": "2025-03-02T06:07:38.859292-05:00",
+      "amount_billed": 428.299282120652,
+      "amount_allowed": 342.6394256965216
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "92213581-e070-44f9-8d72-24ed0a85f9f9",
+      "bill_id": "fbf8875a-b61c-4ceb-a407-d51815a5cea7",
+      "create_time": "2025-01-31T00:36:44.859295-05:00",
+      "amount_billed": 214.85628434645753,
+      "amount_allowed": 171.88502747716603
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "633da4a3-93aa-4a75-89ed-a851be110f46",
+      "bill_id": "dcc1506e-741e-4e1d-9dc8-638b43c25431",
+      "create_time": "2025-04-05T06:37:28.859297-04:00",
+      "amount_billed": 286.573732224271,
+      "amount_allowed": 229.2589857794168
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "9501c85f-2509-47cc-a596-e251b5d6a3d6",
+      "bill_id": "3a1ccf06-c503-4612-b127-e1364139ed1e",
+      "create_time": "2025-03-04T23:01:05.8593-05:00",
+      "amount_billed": 443.4597029591296,
+      "amount_allowed": 354.7677623673037
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ce544997-3602-4834-97fe-1aec70426338",
+      "bill_id": "5ff4b6f5-c688-4284-93cd-7e701ca00ca9",
+      "create_time": "2025-03-31T18:40:27.859303-04:00",
+      "amount_billed": 13.254522217097664,
+      "amount_allowed": 10.603617773678131
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ef62fda6-6b53-43f7-b155-b802b58f8196",
+      "bill_id": "8566b598-cf44-4b34-92df-bb4c8d548477",
+      "create_time": "2025-02-20T20:01:17.859305-05:00",
+      "amount_billed": 417.028155712495,
+      "amount_allowed": 333.622524569996
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "3eefd17a-4d45-47a0-b7b3-5989c8300a34",
+      "bill_id": "afea7fc3-f249-4658-9abb-aa2b44b3a81e",
+      "create_time": "2025-04-18T00:02:28.859308-04:00",
+      "amount_billed": 395.4982511468628,
+      "amount_allowed": 316.3986009174903
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "ba75ce74-4f92-4a47-8022-e6313e09caa5",
+      "bill_id": "a9a29d37-75b4-4613-9d0c-931e0a8edf82",
+      "create_time": "2025-02-18T08:21:54.85931-05:00",
+      "amount_billed": 253.73680101064238,
+      "amount_allowed": 202.9894408085139
+    },
+    {
+      "account_id": "17c5ab27-a3ab-49c1-a5ba-611613769549",
+      "event_id": "1307dbc6-b73f-4178-91d7-643a697427a1",
+      "bill_id": "acd51f0a-318e-48d1-b909-c77f79ea015a",
+      "create_time": "2025-03-21T04:06:03.859313-04:00",
+      "amount_billed": 398.9788943264552,
+      "amount_allowed": 319.18311546116416
+    }
+  ]
+}
