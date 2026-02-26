@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useEvents } from '@/hooks/useEvents';
 import { EventList } from './EventList';
+import { FinancialSummary } from './FinancialSummary';
 import { CreateEventDialog } from '@/components/events/CreateEventDialog';
 import { Header } from '@/components/layout/Header';
 import { Input } from '@/components/ui/input';
@@ -100,6 +101,7 @@ export function TimelinePage() {
           </div>
         </div>
 
+        <FinancialSummary events={events} />
         <EventList events={filteredEvents} isFiltered={isFiltered} />
       </main>
     </div>

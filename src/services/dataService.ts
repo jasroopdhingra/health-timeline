@@ -136,6 +136,11 @@ export function getBillForEvent(eventId: string): Bill | undefined {
   return data.bill.find((b) => b.event_id === eventId);
 }
 
+export function getAllBills(): Bill[] {
+  const data = loadData();
+  return data.bill;
+}
+
 export function resetData(): void {
   localStorage.removeItem(STORAGE_KEY);
   loadData();
