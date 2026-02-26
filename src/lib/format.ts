@@ -47,11 +47,11 @@ export function getMonthYear(isoString: string): string {
 }
 
 const eventTypeBadgeStyles: Record<EventType, string> = {
-  'Follow-up Appointment': 'bg-blue-100 text-blue-800 border-blue-200',
+  'Follow-up Appointment': 'bg-violet-100 text-violet-800 border-violet-200',
   'General Checkup': 'bg-emerald-100 text-emerald-800 border-emerald-200',
-  'Diagnostic Testing': 'bg-purple-100 text-purple-800 border-purple-200',
+  'Diagnostic Testing': 'bg-indigo-100 text-indigo-800 border-indigo-200',
   'Consultation': 'bg-amber-100 text-amber-800 border-amber-200',
-  'Therapy Session': 'bg-rose-100 text-rose-800 border-rose-200',
+  'Therapy Session': 'bg-fuchsia-100 text-fuchsia-800 border-fuchsia-200',
 };
 
 export function getEventTypeBadgeStyle(eventType: EventType): string {
